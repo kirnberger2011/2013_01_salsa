@@ -553,14 +553,14 @@ a:hover {
 -------------------------------------------------------------- */
 
 #access {
-	background: #222; /* Show a solid color for older browsers */
-	background: -moz-linear-gradient(#252525, #0a0a0a);
+	background: url('http://www.viennasalsacongress.com/wp-content/uploads/bg_menue.png'); /* Show a solid color for older browsers */
+	/*background: -moz-linear-gradient(#252525, #0a0a0a);
 	background: -o-linear-gradient(#252525, #0a0a0a);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a)); /* older webkit syntax */
-	background: -webkit-linear-gradient(#252525, #0a0a0a);
+	/*background: -webkit-linear-gradient(#252525, #0a0a0a);
 	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
 	-moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
-	box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;*/
 	clear: both;
 	display: block;
 	float: left;
@@ -572,6 +572,7 @@ a:hover {
 	list-style: none;
 	margin: 0 0 0 -0.8125em;
 	padding-left: 0;
+	/*background-image: http://www.viennasalsacongress.com/wp-content/uploads/bg_menue.png;*/
 }
 #access li {
 	float: left;
@@ -583,6 +584,7 @@ a:hover {
 	line-height: 3.333em;
 	padding: 0 1.2125em;
 	text-decoration: none;
+	text-transform:uppercase;
 }
 #access ul ul {
 	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
@@ -2718,3 +2720,17 @@ p.comment-form-comment {
 #ie8 section.feature-image.large img {
 	width: 100%;
 }
+
+
+/**... Add on 22/01/2013...*/
+.site-generator {
+	background: #f9f9f9;
+	color: #666;
+	font-size: 12px;
+	text-align: center;
+	background-image: http://www.viennasalsacongress.com/wp-content/uploads/footer.png;
+}
+.site-generator img {
+
+}
+/**... Add on 22/01/2013 ends...*/
